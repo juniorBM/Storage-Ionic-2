@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Usuario Logado
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Nome: {{nome}}</p>
+  <p>Senha: {{senha}}</p>
+  <p>Logado: {{logado}}</p>
+
+  <button ion-button block (click)="deslogar()">Deslogar</button>
+</ion-content>
